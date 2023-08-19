@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+
+}
+
+h2{
+    font-weight: bolder;
+}
+
+
+#Top {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: sticky;
+  color: white;
+  padding: 0 5% 0 5%;
+  margin-bottom: 2%;
+  top: 0;
+}
+
+#nav-left {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.linking {
+  color: white;
+  text-decoration: none;
+}
+
+.register {
+  background-color: white;
+  margin: auto;
+  padding: 2%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+form {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 1%;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 7px;
+}
+
+#left-block {
+  text-align: start;
+  display: grid;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.nested {
+  margin-top: 5%;
+}
+
+.nested td {
+  padding: 5px;
+}
